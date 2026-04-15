@@ -6,7 +6,6 @@ from datetime import datetime
 
 SITEMAP_URL = "https://desconcept.pl/sitemap.xml.gz"
 OUTPUT_FILE = "sitemap-llm.xml"
-
 MAX_PER_CATEGORY = 15
 
 CATEGORY_MAP = {
@@ -58,22 +57,23 @@ BRAND_MAP = {
     "fdesign": "FDesign"
 }
 
+# ✅ FIX: obsługa gzip + XML (IdoSell chaos)
 def download_xml(url):
     r = requests.get(url, timeout=20)
     r.raise_for_status()
 
     content = r.content
 
-    # 🔥 sprawdź czy to naprawdę gzip (magic bytes)
+    # sprawdzamy czy to prawdziwy gzip
     if content[:2] == b'\x1f\x8b':
         try:
+            print("📦 GZIP wykryty — rozpakowuję")
             return gzip.decompress(content)
         except:
-            print("⚠️ Nie udało się rozpakować gzip — używam raw")
+            print("⚠️ błąd gzip — używam raw")
             return content
     else:
-        # 👉 to NIE jest gzip mimo .gz w URL
-        print("⚠️ Plik NIE jest gzip (IdoSell moment)")
+        print("📄 zwykły XML (bez gzip)")
         return content
 
 def detect_category(url):
@@ -90,7 +90,7 @@ def detect_brand(url):
             return brand
     return "DES Concept"
 
-def extract_products_from_xml(xml_data, categories):
+def extract_products(xml_data, categories):
     root = ET.fromstring(xml_data)
 
     for url in root.findall(".//{*}url"):
@@ -104,32 +104,31 @@ def extract_products_from_xml(xml_data, categories):
                 if len(categories[cat]) < MAX_PER_CATEGORY:
                     categories[cat].append(link)
 
-def parse_products(xml_data):
+def parse_sitemap(xml_data):
     categories = defaultdict(list)
-
     root = ET.fromstring(xml_data)
 
     urls = root.findall(".//{*}url")
 
-    # 🔥 Jeśli to sitemap index
+    # 🔥 jeśli to sitemap index
     if not urls:
-        print("⚠️ Sitemap index wykryty")
+        print("📂 sitemap index wykryty")
 
         for sm in root.findall(".//{*}sitemap"):
             loc = sm.find("{*}loc")
+
             if loc is not None:
                 sub_url = loc.text
 
                 try:
-                    print(f"➡️ Pobieram: {sub_url}")
+                    print(f"➡️ pobieram sub-sitemap: {sub_url}")
                     sub_xml = download_xml(sub_url)
-                    extract_products_from_xml(sub_xml, categories)
+                    extract_products(sub_xml, categories)
 
                 except Exception as e:
-                    print(f"❌ Błąd: {e}")
-
+                    print(f"❌ błąd sub-sitemap: {e}")
     else:
-        extract_products_from_xml(xml_data, categories)
+        extract_products(xml_data, categories)
 
     return categories
 
@@ -140,9 +139,8 @@ def format_name(url):
 
     name = name.replace("zestaw des", "")
     name = name.replace("miska wc", "wc")
-    name = name.strip()
 
-    return name.capitalize()
+    return name.strip().capitalize()
 
 def generate_xml(categories):
     today = datetime.today().strftime("%Y-%m-%d")
@@ -188,8 +186,8 @@ def main():
         print("⬇️ Pobieranie sitemap...")
         xml_data = download_xml(SITEMAP_URL)
 
-        print("🔍 Analiza produktów...")
-        categories = parse_products(xml_data)
+        print("🔍 Parsowanie...")
+        categories = parse_sitemap(xml_data)
 
         for cat, items in categories.items():
             print(f"{cat}: {len(items)} produktów")
@@ -199,7 +197,7 @@ def main():
 
         save_file(xml_content)
 
-        print("✅ Gotowe! sitemap-llm.xml zapisany.")
+        print("✅ GOTOWE — sitemap-llm.xml zapisany")
 
     except Exception as e:
         print(f"❌ Błąd krytyczny: {e}")
