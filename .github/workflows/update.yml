@@ -1,9 +1,9 @@
 name: Update LLM Sitemap
 
 on:
-  schedule:
-    - cron: "0 3 * * *"  # codziennie 03:00
   workflow_dispatch:
+  schedule:
+    - cron: "0 3 * * *"
 
 jobs:
   build:
@@ -11,12 +11,12 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.10"
+          python-version: '3.10'
 
       - name: Install dependencies
         run: pip install requests
@@ -29,5 +29,5 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add sitemap-llm.xml
-          git commit -m "Auto update sitemap" || echo "No changes"
+          git commit -m "update sitemap" || echo "no changes"
           git push
