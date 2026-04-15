@@ -7,9 +7,8 @@ from datetime import datetime
 SITEMAP_URL = "https://desconcept.pl/sitemap.xml.gz"
 OUTPUT_FILE = "sitemap-llm.xml"
 
-MAX_PER_CATEGORY = 10  # limit produktów na kategorię
+MAX_PER_CATEGORY = 15
 
-# 🧠 MAPA KATEGORII
 CATEGORY_MAP = {
     "miska-wc": "WC",
     "wc": "WC",
@@ -26,7 +25,6 @@ CATEGORY_MAP = {
     "oswietlenie": "Lighting"
 }
 
-# 🔥 MAPA BRANDÓW (rozszerzona)
 BRAND_MAP = {
     "rak": "RAK Ceramics",
     "omnires": "Omnires",
@@ -42,8 +40,6 @@ BRAND_MAP = {
     "moosee": "Moosee",
     "actona": "Actona",
     "gallery": "Gallery Direct",
-
-    # NOWE
     "bizzotto": "Bizzotto",
     "creavit": "Creavit",
     "isvea": "ISVEA",
@@ -62,10 +58,13 @@ BRAND_MAP = {
     "fdesign": "FDesign"
 }
 
-def download_sitemap():
-    response = requests.get(SITEMAP_URL)
-    response.raise_for_status()
-    return gzip.decompress(response.content)
+def download_xml(url):
+    r = requests.get(url, timeout=20)
+    r.raise_for_status()
+
+    if url.endswith(".gz"):
+        return gzip.decompress(r.content)
+    return r.content
 
 def detect_category(url):
     url_lower = url.lower()
@@ -81,9 +80,8 @@ def detect_brand(url):
             return brand
     return "DES Concept"
 
-def parse_products(xml_data):
+def extract_products_from_xml(xml_data, categories):
     root = ET.fromstring(xml_data)
-    categories = defaultdict(list)
 
     for url in root.findall(".//{*}url"):
         loc = url.find("{*}loc")
@@ -91,10 +89,37 @@ def parse_products(xml_data):
             link = loc.text
 
             if "/products/" in link:
-                category = detect_category(link)
+                cat = detect_category(link)
 
-                if len(categories[category]) < MAX_PER_CATEGORY:
-                    categories[category].append(link)
+                if len(categories[cat]) < MAX_PER_CATEGORY:
+                    categories[cat].append(link)
+
+def parse_products(xml_data):
+    categories = defaultdict(list)
+
+    root = ET.fromstring(xml_data)
+
+    urls = root.findall(".//{*}url")
+
+    # 🔥 Jeśli to sitemap index
+    if not urls:
+        print("⚠️ Sitemap index wykryty")
+
+        for sm in root.findall(".//{*}sitemap"):
+            loc = sm.find("{*}loc")
+            if loc is not None:
+                sub_url = loc.text
+
+                try:
+                    print(f"➡️ Pobieram: {sub_url}")
+                    sub_xml = download_xml(sub_url)
+                    extract_products_from_xml(sub_xml, categories)
+
+                except Exception as e:
+                    print(f"❌ Błąd: {e}")
+
+    else:
+        extract_products_from_xml(xml_data, categories)
 
     return categories
 
@@ -103,7 +128,6 @@ def format_name(url):
     name = name.replace(".html", "")
     name = name.replace("-", " ")
 
-    # czyszczenie
     name = name.replace("zestaw des", "")
     name = name.replace("miska wc", "wc")
     name = name.strip()
@@ -143,7 +167,6 @@ def generate_xml(categories):
         xml += "  </category>\n"
 
     xml += "\n</sitemap>"
-
     return xml
 
 def save_file(content):
@@ -151,21 +174,25 @@ def save_file(content):
         f.write(content)
 
 def main():
-    print("⬇️ Pobieranie sitemap...")
-    xml_data = download_sitemap()
+    try:
+        print("⬇️ Pobieranie sitemap...")
+        xml_data = download_xml(SITEMAP_URL)
 
-    print("🔍 Grupowanie produktów...")
-    categories = parse_products(xml_data)
+        print("🔍 Analiza produktów...")
+        categories = parse_products(xml_data)
 
-    for cat, items in categories.items():
-        print(f"{cat}: {len(items)} produktów")
+        for cat, items in categories.items():
+            print(f"{cat}: {len(items)} produktów")
 
-    print("⚙️ Generowanie XML...")
-    xml_content = generate_xml(categories)
+        print("⚙️ Generowanie XML...")
+        xml_content = generate_xml(categories)
 
-    save_file(xml_content)
+        save_file(xml_content)
 
-    print("✅ Gotowe! sitemap-llm.xml zapisany.")
+        print("✅ Gotowe! sitemap-llm.xml zapisany.")
+
+    except Exception as e:
+        print(f"❌ Błąd krytyczny: {e}")
 
 if __name__ == "__main__":
     main()
