@@ -62,9 +62,19 @@ def download_xml(url):
     r = requests.get(url, timeout=20)
     r.raise_for_status()
 
-    if url.endswith(".gz"):
-        return gzip.decompress(r.content)
-    return r.content
+    content = r.content
+
+    # 🔥 sprawdź czy to naprawdę gzip (magic bytes)
+    if content[:2] == b'\x1f\x8b':
+        try:
+            return gzip.decompress(content)
+        except:
+            print("⚠️ Nie udało się rozpakować gzip — używam raw")
+            return content
+    else:
+        # 👉 to NIE jest gzip mimo .gz w URL
+        print("⚠️ Plik NIE jest gzip (IdoSell moment)")
+        return content
 
 def detect_category(url):
     url_lower = url.lower()
