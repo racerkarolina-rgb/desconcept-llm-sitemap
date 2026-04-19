@@ -8,327 +8,219 @@
     <description>Premium store offering bathroom, kitchen, furniture and lighting products from European brands.</description>
   </store>
 
-  <category name="Kitchen Sinks">
-
-    <product>
-      <name>Zaffiro bateria zlewozmywakowa 62289</name>
-      <url>https://desconcept.pl/pl/products/zaffiro-bateria-zlewozmywakowa-62289.html</url>
-      <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
-    </product>
-
-    <product>
-      <name>Zaslepka do otworu w zlewozmywaku 102083</name>
-      <url>https://desconcept.pl/pl/products/zaslepka-do-otworu-w-zlewozmywaku-102083.html</url>
-      <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
-    </product>
-
-    <product>
-      <name>Zaslepka do otworu w zlewozmywaku 103163</name>
-      <url>https://desconcept.pl/pl/products/zaslepka-do-otworu-w-zlewozmywaku-103163.html</url>
-      <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
-    </product>
-
-    <product>
-      <name>Zenith zlewozmywak ze stali nierdzewnej 60x45cm gun metal 95967</name>
-      <url>https://desconcept.pl/pl/products/zenith-zlewozmywak-ze-stali-nierdzewnej-60x45cm-gun-metal-95967.html</url>
-      <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
-    </product>
-
-    <product>
-      <name>Zenith zlewozmywak ze stali nierdzewnej 60x45cm miedz mat 95969</name>
-      <url>https://desconcept.pl/pl/products/zenith-zlewozmywak-ze-stali-nierdzewnej-60x45cm-miedz-mat-95969.html</url>
-      <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
-    </product>
-
-    <product>
-      <name>Zenith zlewozmywak ze stali nierdzewnej 60x45cm zloto mat 95968</name>
-      <url>https://desconcept.pl/pl/products/zenith-zlewozmywak-ze-stali-nierdzewnej-60x45cm-zloto-mat-95968.html</url>
-      <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
-    </product>
-
-    <product>
-      <name>Zero zlewozmywak ze stali nierdzewnej 54x43cm 87593</name>
-      <url>https://desconcept.pl/pl/products/zero-zlewozmywak-ze-stali-nierdzewnej-54x43cm-87593.html</url>
-      <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
-    </product>
-
-    <product>
-      <name>Zestaw akcesoriow do zlewozmywaka 102139</name>
-      <url>https://desconcept.pl/pl/products/zestaw-akcesoriow-do-zlewozmywaka-102139.html</url>
-      <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
-    </product>
-
-    <product>
-      <name>Zestaw akcesoriow do zlewozmywaka 102156</name>
-      <url>https://desconcept.pl/pl/products/zestaw-akcesoriow-do-zlewozmywaka-102156.html</url>
-      <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
-    </product>
-
-    <product>
-      <name>Zestaw akcesoriow do zlewozmywaka 102157</name>
-      <url>https://desconcept.pl/pl/products/zestaw-akcesoriow-do-zlewozmywaka-102157.html</url>
-      <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
-    </product>
-
-    <product>
-      <name>Zestaw akcesoriow do zlewozmywaka 104182</name>
-      <url>https://desconcept.pl/pl/products/zestaw-akcesoriow-do-zlewozmywaka-104182.html</url>
-      <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
-    </product>
-
-    <product>
-      <name>Zestaw akcesoriow do zlewozmywaka 104183</name>
-      <url>https://desconcept.pl/pl/products/zestaw-akcesoriow-do-zlewozmywaka-104183.html</url>
-      <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
-    </product>
-
-    <product>
-      <name>Zlew gospodarczy ceramiczny 62x55cm z przelewem 163154</name>
-      <url>https://desconcept.pl/pl/products/zlew-gospodarczy-ceramiczny-62x55cm-z-przelewem-163154.html</url>
-      <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
-    </product>
-
-    <product>
-      <name>Zlew na szafke 58x38cm plastik bialy 163296</name>
-      <url>https://desconcept.pl/pl/products/zlew-na-szafke-58x38cm-plastik-bialy-163296.html</url>
-      <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
-    </product>
-
-    <product>
-      <name>Zlewozmywak ceramiczny 1 komorowy 101787</name>
-      <url>https://desconcept.pl/pl/products/zlewozmywak-ceramiczny-1-komorowy-101787.html</url>
-      <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
-    </product>
-  </category>
-
-  <category name="Other">
-
-    <product>
-      <name>Zaffiro natryskowo wannowa podtynkowa 62272</name>
-      <url>https://desconcept.pl/pl/products/zaffiro-natryskowo-wannowa-podtynkowa-62272.html</url>
-      <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
-    </product>
-
-    <product>
-      <name>Zaffiro natryskowo wannowa podtynkowa 62283</name>
-      <url>https://desconcept.pl/pl/products/zaffiro-natryskowo-wannowa-podtynkowa-62283.html</url>
-      <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
-    </product>
-
-    <product>
-      <name>Zafira iii kinkiet 82000</name>
-      <url>https://desconcept.pl/pl/products/zafira-iii-kinkiet-82000.html</url>
-      <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
-    </product>
-
-    <product>
-      <name>Zaglowek do pisuaru antracyt 94813</name>
-      <url>https://desconcept.pl/pl/products/zaglowek-do-pisuaru-antracyt-94813.html</url>
-      <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
-    </product>
-
-    <product>
-      <name>Zaglowek do wanny 102410</name>
-      <url>https://desconcept.pl/pl/products/zaglowek-do-wanny-102410.html</url>
-      <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
-    </product>
-
-    <product>
-      <name>Zahara hammered metal vase antique brass 360mm 151526</name>
-      <url>https://desconcept.pl/pl/products/zahara-hammered-metal-vase-antique-brass-360mm-151526.html</url>
-      <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
-    </product>
-
-    <product>
-      <name>Zahara hammered metal vase antique silver 360mm 151528</name>
-      <url>https://desconcept.pl/pl/products/zahara-hammered-metal-vase-antique-silver-360mm-151528.html</url>
-      <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
-    </product>
-
-    <product>
-      <name>Zahara hammered metal vase antique silver 380mm 151529</name>
-      <url>https://desconcept.pl/pl/products/zahara-hammered-metal-vase-antique-silver-380mm-151529.html</url>
-      <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
-    </product>
-
-    <product>
-      <name>Zahara hurricane parchment 185x185xh260mm 151125</name>
-      <url>https://desconcept.pl/pl/products/zahara-hurricane-parchment-185x185xh260mm-151125.html</url>
-      <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
-    </product>
-
-    <product>
-      <name>Zahara hurricane terracotta 150x150x220mm 151126</name>
-      <url>https://desconcept.pl/pl/products/zahara-hurricane-terracotta-150x150x220mm-151126.html</url>
-      <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
-    </product>
-
-    <product>
-      <name>Zahara ribbed cast metal vase terracotta h305mm 151530</name>
-      <url>https://desconcept.pl/pl/products/zahara-ribbed-cast-metal-vase-terracotta-h305mm-151530.html</url>
-      <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
-    </product>
-
-    <product>
-      <name>Zahara ribbed cast metal vast parchment h380mm 151531</name>
-      <url>https://desconcept.pl/pl/products/zahara-ribbed-cast-metal-vast-parchment-h380mm-151531.html</url>
-      <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
-    </product>
-
-    <product>
-      <name>Zaire 1 pendant light 580x1640x375mm 152109</name>
-      <url>https://desconcept.pl/pl/products/zaire-1-pendant-light-580x1640x375mm-152109.html</url>
-      <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
-    </product>
-
-    <product>
-      <name>Zaire 1 pendant light 600x1695x470mm 152110</name>
-      <url>https://desconcept.pl/pl/products/zaire-1-pendant-light-600x1695x470mm-152110.html</url>
-      <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
-    </product>
-
-    <product>
-      <name>Zaire floor light 151806</name>
-      <url>https://desconcept.pl/pl/products/zaire-floor-light-151806.html</url>
-      <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
-    </product>
-  </category>
-
   <category name="Shower">
 
     <product>
       <name>Zaffiro system prysznicowy podtynkowy 62274</name>
       <url>https://desconcept.pl/pl/products/zaffiro-system-prysznicowy-podtynkowy-62274.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zaffiro system prysznicowy podtynkowy 62275</name>
       <url>https://desconcept.pl/pl/products/zaffiro-system-prysznicowy-podtynkowy-62275.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zamienna mydelniczka do drazku prysznicowego 22mm plastik 92397</name>
       <url>https://desconcept.pl/pl/products/zamienna-mydelniczka-do-drazku-prysznicowego-22mm-plastik-92397.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zamienna mydelniczka do drazku prysznicowego 25mm plastik 87592</name>
       <url>https://desconcept.pl/pl/products/zamienna-mydelniczka-do-drazku-prysznicowego-25mm-plastik-87592.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zamienna mydelniczka do drazku prysznicowego 25mm plastik 92398</name>
       <url>https://desconcept.pl/pl/products/zamienna-mydelniczka-do-drazku-prysznicowego-25mm-plastik-92398.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zapasowy suwak do drazka prysznicowego 16x19mm mosiadz chrom 83385</name>
       <url>https://desconcept.pl/pl/products/zapasowy-suwak-do-drazka-prysznicowego-16x19mm-mosiadz-chrom-83385.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zapasowy suwak do drazka prysznicowego 16x26mm mosiadz chrom 101047</name>
       <url>https://desconcept.pl/pl/products/zapasowy-suwak-do-drazka-prysznicowego-16x26mm-mosiadz-chrom-101047.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zapasowy suwak do drazka prysznicowego 22mm abs chrom 85351</name>
       <url>https://desconcept.pl/pl/products/zapasowy-suwak-do-drazka-prysznicowego-22mm-abs-chrom-85351.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zapasowy suwak do drazka prysznicowego 23mm abs chrom 85590</name>
       <url>https://desconcept.pl/pl/products/zapasowy-suwak-do-drazka-prysznicowego-23mm-abs-chrom-85590.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zapasowy suwak do drazka prysznicowego 23mm abs chrom 98509</name>
       <url>https://desconcept.pl/pl/products/zapasowy-suwak-do-drazka-prysznicowego-23mm-abs-chrom-98509.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zapasowy suwak do drazka prysznicowego 23mm abs zloty 93175</name>
       <url>https://desconcept.pl/pl/products/zapasowy-suwak-do-drazka-prysznicowego-23mm-abs-zloty-93175.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zapasowy suwak do drazka prysznicowego 23mm abs zloty szczotkowany 94075</name>
       <url>https://desconcept.pl/pl/products/zapasowy-suwak-do-drazka-prysznicowego-23mm-abs-zloty-szczotkowany-94075.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zapasowy suwak do drazka prysznicowego 25mm abs chrom 84398</name>
       <url>https://desconcept.pl/pl/products/zapasowy-suwak-do-drazka-prysznicowego-25mm-abs-chrom-84398.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zapasowy suwak do drazka prysznicowego 30x15mm abs chrom 85920</name>
       <url>https://desconcept.pl/pl/products/zapasowy-suwak-do-drazka-prysznicowego-30x15mm-abs-chrom-85920.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zapasowy suwak do drazka prysznicowego 30x15mm abs chrom 92055</name>
       <url>https://desconcept.pl/pl/products/zapasowy-suwak-do-drazka-prysznicowego-30x15mm-abs-chrom-92055.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
+    </product>
+  </category>
+
+  <category name="Other">
+
+    <product>
+      <name>Zafira iii kinkiet 82000</name>
+      <url>https://desconcept.pl/pl/products/zafira-iii-kinkiet-82000.html</url>
+      <brand>DES Concept</brand>
+      <lastmod>2026-04-19</lastmod>
+    </product>
+
+    <product>
+      <name>Zaglowek do pisuaru antracyt 94813</name>
+      <url>https://desconcept.pl/pl/products/zaglowek-do-pisuaru-antracyt-94813.html</url>
+      <brand>DES Concept</brand>
+      <lastmod>2026-04-19</lastmod>
+    </product>
+
+    <product>
+      <name>Zaglowek do wanny 102410</name>
+      <url>https://desconcept.pl/pl/products/zaglowek-do-wanny-102410.html</url>
+      <brand>DES Concept</brand>
+      <lastmod>2026-04-19</lastmod>
+    </product>
+
+    <product>
+      <name>Zahara hammered metal vase antique brass 360mm 151526</name>
+      <url>https://desconcept.pl/pl/products/zahara-hammered-metal-vase-antique-brass-360mm-151526.html</url>
+      <brand>DES Concept</brand>
+      <lastmod>2026-04-19</lastmod>
+    </product>
+
+    <product>
+      <name>Zahara hammered metal vase antique silver 360mm 151528</name>
+      <url>https://desconcept.pl/pl/products/zahara-hammered-metal-vase-antique-silver-360mm-151528.html</url>
+      <brand>DES Concept</brand>
+      <lastmod>2026-04-19</lastmod>
+    </product>
+
+    <product>
+      <name>Zahara hammered metal vase antique silver 380mm 151529</name>
+      <url>https://desconcept.pl/pl/products/zahara-hammered-metal-vase-antique-silver-380mm-151529.html</url>
+      <brand>DES Concept</brand>
+      <lastmod>2026-04-19</lastmod>
+    </product>
+
+    <product>
+      <name>Zahara hurricane parchment 185x185xh260mm 151125</name>
+      <url>https://desconcept.pl/pl/products/zahara-hurricane-parchment-185x185xh260mm-151125.html</url>
+      <brand>DES Concept</brand>
+      <lastmod>2026-04-19</lastmod>
+    </product>
+
+    <product>
+      <name>Zahara hurricane terracotta 150x150x220mm 151126</name>
+      <url>https://desconcept.pl/pl/products/zahara-hurricane-terracotta-150x150x220mm-151126.html</url>
+      <brand>DES Concept</brand>
+      <lastmod>2026-04-19</lastmod>
+    </product>
+
+    <product>
+      <name>Zahara ribbed cast metal vase terracotta h305mm 151530</name>
+      <url>https://desconcept.pl/pl/products/zahara-ribbed-cast-metal-vase-terracotta-h305mm-151530.html</url>
+      <brand>DES Concept</brand>
+      <lastmod>2026-04-19</lastmod>
+    </product>
+
+    <product>
+      <name>Zahara ribbed cast metal vast parchment h380mm 151531</name>
+      <url>https://desconcept.pl/pl/products/zahara-ribbed-cast-metal-vast-parchment-h380mm-151531.html</url>
+      <brand>DES Concept</brand>
+      <lastmod>2026-04-19</lastmod>
+    </product>
+
+    <product>
+      <name>Zaire 1 pendant light 580x1640x375mm 152109</name>
+      <url>https://desconcept.pl/pl/products/zaire-1-pendant-light-580x1640x375mm-152109.html</url>
+      <brand>DES Concept</brand>
+      <lastmod>2026-04-19</lastmod>
+    </product>
+
+    <product>
+      <name>Zaire 1 pendant light 600x1695x470mm 152110</name>
+      <url>https://desconcept.pl/pl/products/zaire-1-pendant-light-600x1695x470mm-152110.html</url>
+      <brand>DES Concept</brand>
+      <lastmod>2026-04-19</lastmod>
+    </product>
+
+    <product>
+      <name>Zaire floor light 151806</name>
+      <url>https://desconcept.pl/pl/products/zaire-floor-light-151806.html</url>
+      <brand>DES Concept</brand>
+      <lastmod>2026-04-19</lastmod>
+    </product>
+
+    <product>
+      <name>Zaire table lamp 152407</name>
+      <url>https://desconcept.pl/pl/products/zaire-table-lamp-152407.html</url>
+      <brand>DES Concept</brand>
+      <lastmod>2026-04-19</lastmod>
+    </product>
+
+    <product>
+      <name>Zajac lord harrington z brazu 135 x 175 x 405 mm 131073</name>
+      <url>https://desconcept.pl/pl/products/zajac-lord-harrington-z-brazu-135-x-175-x-405-mm-131073.html</url>
+      <brand>DES Concept</brand>
+      <lastmod>2026-04-19</lastmod>
     </product>
   </category>
 
@@ -338,105 +230,213 @@
       <name>Zara 100 umywalka ceramiczna meblowa 99 5x46 5cm bialy 100708</name>
       <url>https://desconcept.pl/pl/products/zara-100-umywalka-ceramiczna-meblowa-99-5x46-5cm-bialy-100708.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zara 55 umywalka meblowa 54x44 5cm biala 84860</name>
       <url>https://desconcept.pl/pl/products/zara-55-umywalka-meblowa-54x44-5cm-biala-84860.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zara 65 umywalka meblowa 64 5x46cm biala 84861</name>
       <url>https://desconcept.pl/pl/products/zara-65-umywalka-meblowa-64-5x46cm-biala-84861.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zara 80 umywalka meblowa 79 5x46cm biala 84862</name>
       <url>https://desconcept.pl/pl/products/zara-80-umywalka-meblowa-79-5x46cm-biala-84862.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zen umywalka meblowa 60x45cm biala 95122</name>
       <url>https://desconcept.pl/pl/products/zen-umywalka-meblowa-60x45cm-biala-95122.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zen umywalka meblowa 80x45cm biala 95123</name>
       <url>https://desconcept.pl/pl/products/zen-umywalka-meblowa-80x45cm-biala-95123.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zero 45 umywalka meblowa 45 5x40cm biala 84857</name>
       <url>https://desconcept.pl/pl/products/zero-45-umywalka-meblowa-45-5x40cm-biala-84857.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zero 86 umywalka meblowa 86x50cm biala 84858</name>
       <url>https://desconcept.pl/pl/products/zero-86-umywalka-meblowa-86x50cm-biala-84858.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zero 97 umywalka meblowa 97x51cm biala 84859</name>
       <url>https://desconcept.pl/pl/products/zero-97-umywalka-meblowa-97x51cm-biala-84859.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zero umywalka meblowa 55x43 5cm biala 83530</name>
       <url>https://desconcept.pl/pl/products/zero-umywalka-meblowa-55x43-5cm-biala-83530.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zero umywalka meblowa 65x46cm biala 83531</name>
       <url>https://desconcept.pl/pl/products/zero-umywalka-meblowa-65x46cm-biala-83531.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zero umywalka meblowa 75x48 5cm biala 83532</name>
       <url>https://desconcept.pl/pl/products/zero-umywalka-meblowa-75x48-5cm-biala-83532.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Umywalka bez otworu szafka joy podumywalkowa podwieszana 60 moka walnut 63745</name>
       <url>https://desconcept.pl/pl/products/zestaw-des-umywalka-bez-otworu-szafka-joy-podumywalkowa-podwieszana-60-moka-walnut-63745.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Umywalka bez otworu szafka joy podumywalkowa podwieszana 80 biala 63751</name>
       <url>https://desconcept.pl/pl/products/zestaw-des-umywalka-bez-otworu-szafka-joy-podumywalkowa-podwieszana-80-biala-63751.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Umywalka bez otworu szafka joy podumywalkowa podwieszana 80 grey elm 63754</name>
       <url>https://desconcept.pl/pl/products/zestaw-des-umywalka-bez-otworu-szafka-joy-podumywalkowa-podwieszana-80-grey-elm-63754.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
+    </product>
+  </category>
+
+  <category name="Kitchen Sinks">
+
+    <product>
+      <name>Zaslepka do otworu w zlewozmywaku 102083</name>
+      <url>https://desconcept.pl/pl/products/zaslepka-do-otworu-w-zlewozmywaku-102083.html</url>
+      <brand>DES Concept</brand>
+      <lastmod>2026-04-19</lastmod>
+    </product>
+
+    <product>
+      <name>Zaslepka do otworu w zlewozmywaku 103163</name>
+      <url>https://desconcept.pl/pl/products/zaslepka-do-otworu-w-zlewozmywaku-103163.html</url>
+      <brand>DES Concept</brand>
+      <lastmod>2026-04-19</lastmod>
+    </product>
+
+    <product>
+      <name>Zenith zlewozmywak ze stali nierdzewnej 60x45cm gun metal 95967</name>
+      <url>https://desconcept.pl/pl/products/zenith-zlewozmywak-ze-stali-nierdzewnej-60x45cm-gun-metal-95967.html</url>
+      <brand>DES Concept</brand>
+      <lastmod>2026-04-19</lastmod>
+    </product>
+
+    <product>
+      <name>Zenith zlewozmywak ze stali nierdzewnej 60x45cm miedz mat 95969</name>
+      <url>https://desconcept.pl/pl/products/zenith-zlewozmywak-ze-stali-nierdzewnej-60x45cm-miedz-mat-95969.html</url>
+      <brand>DES Concept</brand>
+      <lastmod>2026-04-19</lastmod>
+    </product>
+
+    <product>
+      <name>Zenith zlewozmywak ze stali nierdzewnej 60x45cm zloto mat 95968</name>
+      <url>https://desconcept.pl/pl/products/zenith-zlewozmywak-ze-stali-nierdzewnej-60x45cm-zloto-mat-95968.html</url>
+      <brand>DES Concept</brand>
+      <lastmod>2026-04-19</lastmod>
+    </product>
+
+    <product>
+      <name>Zero zlewozmywak ze stali nierdzewnej 54x43cm 87593</name>
+      <url>https://desconcept.pl/pl/products/zero-zlewozmywak-ze-stali-nierdzewnej-54x43cm-87593.html</url>
+      <brand>DES Concept</brand>
+      <lastmod>2026-04-19</lastmod>
+    </product>
+
+    <product>
+      <name>Zestaw akcesoriow do zlewozmywaka 102139</name>
+      <url>https://desconcept.pl/pl/products/zestaw-akcesoriow-do-zlewozmywaka-102139.html</url>
+      <brand>DES Concept</brand>
+      <lastmod>2026-04-19</lastmod>
+    </product>
+
+    <product>
+      <name>Zestaw akcesoriow do zlewozmywaka 102156</name>
+      <url>https://desconcept.pl/pl/products/zestaw-akcesoriow-do-zlewozmywaka-102156.html</url>
+      <brand>DES Concept</brand>
+      <lastmod>2026-04-19</lastmod>
+    </product>
+
+    <product>
+      <name>Zestaw akcesoriow do zlewozmywaka 102157</name>
+      <url>https://desconcept.pl/pl/products/zestaw-akcesoriow-do-zlewozmywaka-102157.html</url>
+      <brand>DES Concept</brand>
+      <lastmod>2026-04-19</lastmod>
+    </product>
+
+    <product>
+      <name>Zestaw akcesoriow do zlewozmywaka 104182</name>
+      <url>https://desconcept.pl/pl/products/zestaw-akcesoriow-do-zlewozmywaka-104182.html</url>
+      <brand>DES Concept</brand>
+      <lastmod>2026-04-19</lastmod>
+    </product>
+
+    <product>
+      <name>Zestaw akcesoriow do zlewozmywaka 104183</name>
+      <url>https://desconcept.pl/pl/products/zestaw-akcesoriow-do-zlewozmywaka-104183.html</url>
+      <brand>DES Concept</brand>
+      <lastmod>2026-04-19</lastmod>
+    </product>
+
+    <product>
+      <name>Zlew gospodarczy ceramiczny 62x55cm z przelewem 163154</name>
+      <url>https://desconcept.pl/pl/products/zlew-gospodarczy-ceramiczny-62x55cm-z-przelewem-163154.html</url>
+      <brand>DES Concept</brand>
+      <lastmod>2026-04-19</lastmod>
+    </product>
+
+    <product>
+      <name>Zlew na szafke 58x38cm plastik bialy 163296</name>
+      <url>https://desconcept.pl/pl/products/zlew-na-szafke-58x38cm-plastik-bialy-163296.html</url>
+      <brand>DES Concept</brand>
+      <lastmod>2026-04-19</lastmod>
+    </product>
+
+    <product>
+      <name>Zlewozmywak ceramiczny 1 komorowy 101787</name>
+      <url>https://desconcept.pl/pl/products/zlewozmywak-ceramiczny-1-komorowy-101787.html</url>
+      <brand>DES Concept</brand>
+      <lastmod>2026-04-19</lastmod>
+    </product>
+
+    <product>
+      <name>Zlewozmywak ceramiczny 1 komorowy 101791</name>
+      <url>https://desconcept.pl/pl/products/zlewozmywak-ceramiczny-1-komorowy-101791.html</url>
+      <brand>DES Concept</brand>
+      <lastmod>2026-04-19</lastmod>
     </product>
   </category>
 
@@ -446,105 +446,105 @@
       <name>Zawor katowy do podlaczenia spluczki wc 1 2 1 2 101784</name>
       <url>https://desconcept.pl/pl/products/zawor-katowy-do-podlaczenia-spluczki-wc-1-2-1-2-101784.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zen zwiszaca szczotka do wc szklo mleczne chrom 88174</name>
       <url>https://desconcept.pl/pl/products/zen-zwiszaca-szczotka-do-wc-szklo-mleczne-chrom-88174.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zeno szczotka do wc bialy 87285</name>
       <url>https://desconcept.pl/pl/products/zeno-szczotka-do-wc-bialy-87285.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zestaw davos miska z deska wc slim w o podwiesz 52 cm bialy polysk 55369</name>
       <url>https://desconcept.pl/pl/products/zestaw-davos-miska-z-deska-wc-slim-w-o-podwiesz-52-cm-bialy-polysk-55369.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Wc podwieszana z deska w o i umywalka nablatowa 70x35cm bialy polysk 119891</name>
       <url>https://desconcept.pl/pl/products/zestaw-des-miska-wc-podwieszana-z-deska-w-o-i-umywalka-nablatowa-70x35cm-bialy-polysk-119891.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Wc podwieszana z deska w o i umywalka nablatowa feeling owalna 55x35 cm bialy polysk 123503</name>
       <url>https://desconcept.pl/pl/products/zestaw-des-miska-wc-podwieszana-z-deska-w-o-i-umywalka-nablatowa-feeling-owalna-55x35-cm-bialy-polysk-123503.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Wc podwieszana z deska w o i umywalka nablatowa morning owalna 54x38 cm bialy polysk 119927</name>
       <url>https://desconcept.pl/pl/products/zestaw-des-miska-wc-podwieszana-z-deska-w-o-i-umywalka-nablatowa-morning-owalna-54x38-cm-bialy-polysk-119927.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Wc podwieszana z deska w o i umywalka nablatowa variant kwadratowa 42 cm bialy polysk 119897</name>
       <url>https://desconcept.pl/pl/products/zestaw-des-miska-wc-podwieszana-z-deska-w-o-i-umywalka-nablatowa-variant-kwadratowa-42-cm-bialy-polysk-119897.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Wc podwieszana z deska w o i umywalka nablatowa variant owalna 50x36 cm bialy polysk 119893</name>
       <url>https://desconcept.pl/pl/products/zestaw-des-miska-wc-podwieszana-z-deska-w-o-i-umywalka-nablatowa-variant-owalna-50x36-cm-bialy-polysk-119893.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Wc podwieszana z deska w o i umywalka nablatowa variant owalna 50x42 cm bialy polysk 119894</name>
       <url>https://desconcept.pl/pl/products/zestaw-des-miska-wc-podwieszana-z-deska-w-o-i-umywalka-nablatowa-variant-owalna-50x42-cm-bialy-polysk-119894.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Wc podwieszana z deska w o i umywalka nablatowa variant owalna 60x36 cm bialy polysk 119895</name>
       <url>https://desconcept.pl/pl/products/zestaw-des-miska-wc-podwieszana-z-deska-w-o-i-umywalka-nablatowa-variant-owalna-60x36-cm-bialy-polysk-119895.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Wc podwieszana z deska w o i umywalka nablatowa variant owalna 60x42 cm bialy polysk 119896</name>
       <url>https://desconcept.pl/pl/products/zestaw-des-miska-wc-podwieszana-z-deska-w-o-i-umywalka-nablatowa-variant-owalna-60x42-cm-bialy-polysk-119896.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Wc podwieszana z deska w o i umywalka nablatowa variant prostokatna 55x36 cm bialy polysk 119892</name>
       <url>https://desconcept.pl/pl/products/zestaw-des-miska-wc-podwieszana-z-deska-w-o-i-umywalka-nablatowa-variant-prostokatna-55x36-cm-bialy-polysk-119892.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Wc rimless kompakt deska wc 29381</name>
       <url>https://desconcept.pl/pl/products/zestaw-des-miska-wc-rimless-kompakt-deska-wc-29381.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Wc stojaca 52 rimless i deska wc 29380</name>
       <url>https://desconcept.pl/pl/products/zestaw-des-miska-wc-stojaca-52-rimless-i-deska-wc-29380.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
   </category>
 
@@ -554,105 +554,105 @@
       <name>Zen 6 p0315 lampa wiszaca chrom 82142</name>
       <url>https://desconcept.pl/pl/products/zen-6-p0315-lampa-wiszaca-chrom-82142.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zen lustro do makijazu z oswietleniem led chrom 138409</name>
       <url>https://desconcept.pl/pl/products/zen-lustro-do-makijazu-z-oswietleniem-led-chrom-138409.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zen lustro do makijazu z oswietleniem led matowa czern 138451</name>
       <url>https://desconcept.pl/pl/products/zen-lustro-do-makijazu-z-oswietleniem-led-matowa-czern-138451.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zen lustro do makijazu z oswietleniem led stal 138383</name>
       <url>https://desconcept.pl/pl/products/zen-lustro-do-makijazu-z-oswietleniem-led-stal-138383.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zen lustro do makijazu z oswietleniem led szczotkowana miedz 138419</name>
       <url>https://desconcept.pl/pl/products/zen-lustro-do-makijazu-z-oswietleniem-led-szczotkowana-miedz-138419.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zen lustro do makijazu z oswietleniem led szczotkowany braz 138429</name>
       <url>https://desconcept.pl/pl/products/zen-lustro-do-makijazu-z-oswietleniem-led-szczotkowany-braz-138429.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zen lustro do makijazu z oswietleniem led szczotkowany grafit 138323</name>
       <url>https://desconcept.pl/pl/products/zen-lustro-do-makijazu-z-oswietleniem-led-szczotkowany-grafit-138323.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zen lustro do makijazu z oswietleniem led szczotkowany mosiadz 138322</name>
       <url>https://desconcept.pl/pl/products/zen-lustro-do-makijazu-z-oswietleniem-led-szczotkowany-mosiadz-138322.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zenith 1 lampa wiszaca 81395</name>
       <url>https://desconcept.pl/pl/products/zenith-1-lampa-wiszaca-81395.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zenith 3 lampa wiszaca 81396</name>
       <url>https://desconcept.pl/pl/products/zenith-3-lampa-wiszaca-81396.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zenith 5 lampa wiszaca 81397</name>
       <url>https://desconcept.pl/pl/products/zenith-5-lampa-wiszaca-81397.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zenith 6 lampa wiszaca 81398</name>
       <url>https://desconcept.pl/pl/products/zenith-6-lampa-wiszaca-81398.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zeppelin lampa wiszaca duza 81361</name>
       <url>https://desconcept.pl/pl/products/zeppelin-lampa-wiszaca-duza-81361.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zeppelin lampa wiszaca mala 81360</name>
       <url>https://desconcept.pl/pl/products/zeppelin-lampa-wiszaca-mala-81360.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zip plafon lampa zufitowa ip54 81563</name>
       <url>https://desconcept.pl/pl/products/zip-plafon-lampa-zufitowa-ip54-81563.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
   </category>
 
@@ -662,105 +662,105 @@
       <name>Zestaw cross 75 szafka umywalkowa mahon 87738</name>
       <url>https://desconcept.pl/pl/products/zestaw-cross-75-szafka-umywalkowa-mahon-87738.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zestaw ella 80 szafka umywalkowa kolor bialy 87737</name>
       <url>https://desconcept.pl/pl/products/zestaw-ella-80-szafka-umywalkowa-kolor-bialy-87737.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zestaw meblowy 100cm z blatem i szafka cargo 136628</name>
       <url>https://desconcept.pl/pl/products/zestaw-meblowy-100cm-z-blatem-i-szafka-cargo-136628.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zestaw meblowy 100cm z blatem i szafka wysoka 136287</name>
       <url>https://desconcept.pl/pl/products/zestaw-meblowy-100cm-z-blatem-i-szafka-wysoka-136287.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zestaw meblowy 100cm z blatem i szafka wysoka 136349</name>
       <url>https://desconcept.pl/pl/products/zestaw-meblowy-100cm-z-blatem-i-szafka-wysoka-136349.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zestaw meblowy 100cm z blatem i szafka wysoka 138044</name>
       <url>https://desconcept.pl/pl/products/zestaw-meblowy-100cm-z-blatem-i-szafka-wysoka-138044.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zestaw meblowy 100cm z blatem i szafka wysoka 138045</name>
       <url>https://desconcept.pl/pl/products/zestaw-meblowy-100cm-z-blatem-i-szafka-wysoka-138045.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zestaw meblowy 100cm z blatem i szafka wysoka 138119</name>
       <url>https://desconcept.pl/pl/products/zestaw-meblowy-100cm-z-blatem-i-szafka-wysoka-138119.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zestaw meblowy 100cm z blatem i szafka z koszem na pranie 136610</name>
       <url>https://desconcept.pl/pl/products/zestaw-meblowy-100cm-z-blatem-i-szafka-z-koszem-na-pranie-136610.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zestaw meblowy 100cm z blatem i szafka z koszem na pranie 136629</name>
       <url>https://desconcept.pl/pl/products/zestaw-meblowy-100cm-z-blatem-i-szafka-z-koszem-na-pranie-136629.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zestaw meblowy 100cm z blatem i szafka z koszem na pranie 136651</name>
       <url>https://desconcept.pl/pl/products/zestaw-meblowy-100cm-z-blatem-i-szafka-z-koszem-na-pranie-136651.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zestaw meblowy 100cm z blatem i szafka z koszem na pranie 138089</name>
       <url>https://desconcept.pl/pl/products/zestaw-meblowy-100cm-z-blatem-i-szafka-z-koszem-na-pranie-138089.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zestaw meblowy 100cm z blatem i szafka z koszem na pranie 138116</name>
       <url>https://desconcept.pl/pl/products/zestaw-meblowy-100cm-z-blatem-i-szafka-z-koszem-na-pranie-138116.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zestaw meblowy 100cm z blatem i szafka z koszem na pranie 138120</name>
       <url>https://desconcept.pl/pl/products/zestaw-meblowy-100cm-z-blatem-i-szafka-z-koszem-na-pranie-138120.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
 
     <product>
       <name>Zestaw meblowy 100cm z blatem i szafka z koszem na pranie 138920</name>
       <url>https://desconcept.pl/pl/products/zestaw-meblowy-100cm-z-blatem-i-szafka-z-koszem-na-pranie-138920.html</url>
       <brand>DES Concept</brand>
-      <lastmod>2026-04-18</lastmod>
+      <lastmod>2026-04-19</lastmod>
     </product>
   </category>
 
