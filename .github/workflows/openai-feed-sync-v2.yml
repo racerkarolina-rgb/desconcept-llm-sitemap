@@ -1,0 +1,36 @@
+name: Update OpenAI Ads product feed v2
+
+on:
+  schedule:
+    - cron: "15 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install SFTP client and Python dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y sshpass
+          python -m pip install --disable-pip-version-check requests paramiko
+
+      - name: Build and upload feed
+        env:
+          OPENAI_SFTP_HOST: ${{ secrets.OPENAI_SFTP_HOST }}
+          OPENAI_SFTP_PORT: ${{ secrets.OPENAI_SFTP_PORT }}
+          OPENAI_SFTP_USERNAME: ${{ secrets.OPENAI_SFTP_USERNAME }}
+          OPENAI_SFTP_PASSWORD: ${{ secrets.OPENAI_SFTP_PASSWORD }}
+        run: python openai_feed_sync_v2.py
