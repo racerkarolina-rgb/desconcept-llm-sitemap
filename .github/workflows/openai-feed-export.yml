@@ -1,0 +1,51 @@
+name: Download DES Concept product feed
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  export-feed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: python -m pip install requests paramiko
+
+      - name: Generate product feed
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from tempfile import TemporaryDirectory
+          from openai_feed_sync import REMOTE_FILENAME, convert, download
+
+          output = Path("export")
+          output.mkdir()
+
+          with TemporaryDirectory() as directory:
+              source = Path(directory) / "idosell.xml"
+              download(source)
+              stats = convert(source, output / REMOTE_FILENAME)
+
+          if stats["written"] < 1000:
+              raise RuntimeError(f"Safety stop: only {stats['written']} valid products")
+
+          print(f"Exported {stats['written']} products")
+          PY
+
+      - name: Make feed downloadable
+        uses: actions/upload-artifact@v4
+        with:
+          name: DES_Concept_OpenAI_Ads_products
+          path: export/DES_Concept_OpenAI_Ads_products.csv.gz
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 1
