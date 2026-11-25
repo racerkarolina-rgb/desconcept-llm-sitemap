@@ -12,6 +12,7 @@ jobs:
   update-feed:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -24,10 +25,38 @@ jobs:
       - name: Install dependencies
         run: python -m pip install --disable-pip-version-check requests paramiko
 
-      - name: Build and upload feed
+      - name: Build feed
+        id: build
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from tempfile import TemporaryDirectory
+          from openai_feed_sync import REMOTE_FILENAME, download, convert
+
+          with TemporaryDirectory() as folder:
+              source = Path(folder) / "idosell.xml"
+              download(source)
+              stats = convert(source, Path(REMOTE_FILENAME))
+
+          if stats["written"] < 1000:
+              raise SystemExit(f"Too few valid products: {stats['written']}")
+
+          print(f"Exported {stats['written']} products")
+          PY
+
+      - name: Upload to Ads Manager
         env:
           OPENAI_SFTP_HOST: ${{ secrets.OPENAI_SFTP_HOST }}
           OPENAI_SFTP_PORT: ${{ secrets.OPENAI_SFTP_PORT }}
           OPENAI_SFTP_USERNAME: ${{ secrets.OPENAI_SFTP_USERNAME }}
           OPENAI_SFTP_PASSWORD: ${{ secrets.OPENAI_SFTP_PASSWORD }}
-        run: python openai_feed_sync.py
+        run: python -c "from openai_feed_sync import REMOTE_FILENAME, upload; upload(REMOTE_FILENAME)"
+
+      - name: Upload to Business Hub
+        if: ${{ !cancelled() && steps.build.outcome == 'success' }}
+        env:
+          OPENAI_SFTP_HOST: sftp-prod3.commerce.openai.com
+          OPENAI_SFTP_PORT: "443"
+          OPENAI_SFTP_USERNAME: ${{ secrets.BUSINESS_HUB_SFTP_USERNAME }}
+          OPENAI_SFTP_PASSWORD: ${{ secrets.BUSINESS_HUB_SFTP_PASSWORD }}
+        run: python -c "from openai_feed_sync import REMOTE_FILENAME, upload; upload(REMOTE_FILENAME)"
