@@ -31,7 +31,8 @@ jobs:
           python - <<'PY'
           from pathlib import Path
           from tempfile import TemporaryDirectory
-          from openai_feed_sync import REMOTE_FILENAME, download, convert
+
+          from openai_feed_sync import REMOTE_FILENAME, convert, download
 
           with TemporaryDirectory() as folder:
               source = Path(folder) / "idosell.xml"
@@ -59,4 +60,20 @@ jobs:
           OPENAI_SFTP_PORT: "443"
           OPENAI_SFTP_USERNAME: ${{ secrets.BUSINESS_HUB_SFTP_USERNAME }}
           OPENAI_SFTP_PASSWORD: ${{ secrets.BUSINESS_HUB_SFTP_PASSWORD }}
-        run: python -c "from openai_feed_sync import REMOTE_FILENAME, upload; upload(REMOTE_FILENAME)"
+        run: |
+          python - <<'PY'
+          import os
+
+          from openai_feed_sync import REMOTE_FILENAME, upload
+
+          expected_username = "oaiproductfeedprod3.sftp53dffae381b64430863d66ac0472cb98"
+
+          if os.environ["OPENAI_SFTP_USERNAME"] != expected_username:
+              raise SystemExit(
+                  "Login w sekrecie BUSINESS_HUB_SFTP_USERNAME nie zgadza się "
+                  "z loginem nowego kanału DES."
+              )
+
+          upload(REMOTE_FILENAME)
+          print(f"Wysłano plik {REMOTE_FILENAME} na konto SFTP nowego kanału DES.")
+          PY
